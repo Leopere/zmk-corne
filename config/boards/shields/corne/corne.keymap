@@ -15,10 +15,14 @@
         //f10, F7, F9
         default_layer {
             bindings = <
+            //Row1
                 &kp ESC     &kp Q       &kp W       &kp E       &kp R       &kp T
+            //Row2
                 &kp TAB     &kp A       &kp S       &kp D       &kp F       &kp G
+            //Row3
                 &kp LCTRL   &kp Z       &kp X       &kp C       &kp V       &kp B
-                &mo 1    &kp LSHFT   &kp SPACE
+            //Row4
+                                                                &mo 1       &kp LSHFT   &kp SPACE
             >;
         };
         // Row1
@@ -31,10 +35,14 @@
         //f10, F7, F9
         bt_layer {
             bindings = <
+            //Row1
                 &bootloader &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR
+            //Row2
                 &none     &none       &none       &none       &none       &none
+            //Row3
                 &none     &none       &none       &none       &none       &none
-                &none     &none       &none
+            //Row4
+                                                              &none       &none       &none
             >;
         };
     };

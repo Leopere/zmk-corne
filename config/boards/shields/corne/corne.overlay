@@ -6,25 +6,25 @@
         zmk,matrix-transform = &default_transform;
     };
 // ROWS and COLUMNS as wired on the left hand.
-// Row1 = D7, ROW3 = D15, ROW2 = D18, ROW1 = D19
-// Col1 = d6, COl2 = d1, COL3 = d2, COL4 = d3, COL5 = d4, COL6 = d5, COL7 = D6
+// ROW1 = D4, ROW2 = D5, ROW3 = D6, ROW4 = D14
+// Col1 = D6, COl2 = D1, COL3 = D2, COL4 = D3, COL5 = D4, COL6 = D5, COL7 = D6
     default_kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         label = "default_kscan";
         diode-direction = "col2row";
 
-        row-gpios = <&pro_micro 7 (GPIO_ACTIVE_HIGH|GPIO_PULL_DOWN)>,
-                    <&pro_micro 15 (GPIO_ACTIVE_HIGH|GPIO_PULL_DOWN)>,
-                    <&pro_micro 18 (GPIO_ACTIVE_HIGH|GPIO_PULL_DOWN)>,
-                    <&pro_micro 19 (GPIO_ACTIVE_HIGH|GPIO_PULL_DOWN)>;
+        row-gpios = <&pro_micro 10 (GPIO_ACTIVE_HIGH|GPIO_PULL_DOWN)>,
+                    <&pro_micro 9 (GPIO_ACTIVE_HIGH|GPIO_PULL_DOWN)>,
+                    <&pro_micro 8 (GPIO_ACTIVE_HIGH|GPIO_PULL_DOWN)>,
+                    <&pro_micro 7 (GPIO_ACTIVE_HIGH|GPIO_PULL_DOWN)>;
 
         col-gpios = <&pro_micro 6 GPIO_ACTIVE_HIGH>,
-                    <&pro_micro 1 GPIO_ACTIVE_HIGH>,
-                    <&pro_micro 2 GPIO_ACTIVE_HIGH>,
-                    <&pro_micro 3 GPIO_ACTIVE_HIGH>,
-                    <&pro_micro 4 GPIO_ACTIVE_HIGH>,
                     <&pro_micro 5 GPIO_ACTIVE_HIGH>,
-                    <&pro_micro 6 GPIO_ACTIVE_HIGH>;
+                    <&pro_micro 4 GPIO_ACTIVE_HIGH>,
+                    <&pro_micro 3 GPIO_ACTIVE_HIGH>,
+                    <&pro_micro 2 GPIO_ACTIVE_HIGH>,
+                    <&pro_micro 1 GPIO_ACTIVE_HIGH>,
+                    <&pro_micro 0 GPIO_ACTIVE_HIGH>;
     };
 
     default_transform: matrix-transform {
