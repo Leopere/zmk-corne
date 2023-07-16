@@ -10,7 +10,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_0";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <400>;
             bindings = <&kp ESC>, <&none>, <&none>, <&none>, <&none>, <&none>, <&none>, <&none>, <&none>, <&bootloader>;
         };
         //Q|BT_SEL1
@@ -18,7 +18,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_1";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <400>;
             bindings = <&kp Q>, <&none>, <&bt BT_SEL 1>;
         };
         //QW|BT_SEL2
@@ -26,7 +26,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_2";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <400>;
             bindings = <&kp W>, <&none>, <&bt BT_SEL 2>;
         };
         //E|BT_SEL3
@@ -34,7 +34,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_3";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <400>;
             bindings = <&kp E>, <&none>, <&bt BT_SEL 3>;
         };
         //R|BT_SEL4
@@ -42,7 +42,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_4";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <400>;
             bindings = <&kp R>, <&none>, <&bt BT_SEL 4>;
         };
         //T|BT_CLR
@@ -50,7 +50,7 @@
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_5";
             #binding-cells = <0>;
-            tapping-term-ms = <200>;
+            tapping-term-ms = <400>;
             bindings = <&kp T>, <&none>, <&bt BT_CLR>;
         };
     };
