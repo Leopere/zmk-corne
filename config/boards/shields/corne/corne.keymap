@@ -4,56 +4,56 @@
 / {
     //Row1
     //&bootloader &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &bt BT_CLR
-    behaviors {
-        //ESC|bootloader
-        td0: tap_dance_0 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_0";
-            #binding-cells = <0>;
-            tapping-term-ms = <400>;
-            bindings = <&kp ESC>, <&none>, <&none>, <&none>, <&none>, <&none>, <&none>, <&none>, <&none>, <&bootloader>;
-        };
-        //Q|BT_SEL1
-        td1: tap_dance_1 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_1";
-            #binding-cells = <0>;
-            tapping-term-ms = <400>;
-            bindings = <&kp Q>, <&none>, <&bt BT_SEL 1>;
-        };
-        //QW|BT_SEL2
-        td2: tap_dance_2 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_2";
-            #binding-cells = <0>;
-            tapping-term-ms = <400>;
-            bindings = <&kp W>, <&none>, <&bt BT_SEL 2>;
-        };
-        //E|BT_SEL3
-        td3: tap_dance_3 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_3";
-            #binding-cells = <0>;
-            tapping-term-ms = <400>;
-            bindings = <&kp E>, <&none>, <&bt BT_SEL 3>;
-        };
-        //R|BT_SEL4
-        td4: tap_dance_4 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_4";
-            #binding-cells = <0>;
-            tapping-term-ms = <400>;
-            bindings = <&kp R>, <&none>, <&bt BT_SEL 4>;
-        };
-        //T|BT_CLR
-        td5: tap_dance_5 {
-            compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_5";
-            #binding-cells = <0>;
-            tapping-term-ms = <400>;
-            bindings = <&kp T>, <&none>, <&bt BT_CLR>;
-        };
-    };
+    // behaviors {
+    //     //ESC|bootloader
+    //     td0: tap_dance_0 {
+    //         compatible = "zmk,behavior-tap-dance";
+    //         label = "TAP_DANCE_0";
+    //         #binding-cells = <0>;
+    //         tapping-term-ms = <400>;
+    //         bindings = <&kp ESC>, <&none>, <&none>, <&none>, <&none>, <&none>, <&none>, <&none>, <&none>, <&bootloader>;
+    //     };
+    //     //Q|BT_SEL1
+    //     td1: tap_dance_1 {
+    //         compatible = "zmk,behavior-tap-dance";
+    //         label = "TAP_DANCE_1";
+    //         #binding-cells = <0>;
+    //         tapping-term-ms = <400>;
+    //         bindings = <&kp Q>, <&none>, <&bt BT_SEL 1>;
+    //     };
+    //     //QW|BT_SEL2
+    //     td2: tap_dance_2 {
+    //         compatible = "zmk,behavior-tap-dance";
+    //         label = "TAP_DANCE_2";
+    //         #binding-cells = <0>;
+    //         tapping-term-ms = <400>;
+    //         bindings = <&kp W>, <&none>, <&bt BT_SEL 2>;
+    //     };
+    //     //E|BT_SEL3
+    //     td3: tap_dance_3 {
+    //         compatible = "zmk,behavior-tap-dance";
+    //         label = "TAP_DANCE_3";
+    //         #binding-cells = <0>;
+    //         tapping-term-ms = <400>;
+    //         bindings = <&kp E>, <&none>, <&bt BT_SEL 3>;
+    //     };
+    //     //R|BT_SEL4
+    //     td4: tap_dance_4 {
+    //         compatible = "zmk,behavior-tap-dance";
+    //         label = "TAP_DANCE_4";
+    //         #binding-cells = <0>;
+    //         tapping-term-ms = <400>;
+    //         bindings = <&kp R>, <&none>, <&bt BT_SEL 4>;
+    //     };
+    //     //T|BT_CLR
+    //     td5: tap_dance_5 {
+    //         compatible = "zmk,behavior-tap-dance";
+    //         label = "TAP_DANCE_5";
+    //         #binding-cells = <0>;
+    //         tapping-term-ms = <400>;
+    //         bindings = <&kp T>, <&none>, <&bt BT_CLR>;
+    //     };
+    // };
     keymap {
         compatible = "zmk,keymap";
         // Row1
@@ -67,7 +67,8 @@
         default_layer {
             bindings = <
             //Row1
-                &td0        &td1        &td2        &td3        &td4        &td5
+                // &td0        &td1        &td2        &td3        &td4        &td5
+                &kp ESC     &kp Q       &kp W       &kp E       &kp R       &kp T
             //Row2
                 &kp TAB     &kp A       &kp S       &kp D       &kp F       &kp G
             //Row3
