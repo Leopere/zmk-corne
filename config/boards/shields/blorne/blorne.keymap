@@ -12,7 +12,7 @@
             base_layer {
                 bindings = <
 
-    &kp ESC     &kp Q  &kp W  &kp E  &kp R     &kp T                               &kp Y     &kp U     &kp I      &kp O    &kp P      &kp BSPC
+    &bt BT_CLR     &kp Q  &kp W  &kp E  &kp R     &kp T                               &kp Y     &kp U     &kp I      &kp O    &kp P      &bt BT_CLR
     &kp TAB     &kp A  &kp S  &kp D  &kp F     &kp G                               &kp H     &kp J     &kp K      &kp L    &kp SEMI   &kp SQT
     &kp LSHIFT  &kp Z  &kp X  &kp C  &kp V     &kp B                               &kp N     &kp M     &kp COMMA  &kp DOT  &kp SLASH  &kp RSHFT
                                      &kp LGUI  &kp SPACE  &kp RSHFT     &kp ENTER  &mo _SYM  &mo _NAV
@@ -23,10 +23,10 @@
             sym_layer {
                 bindings = <
 
-    &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1                     &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &bt BT_CLR
-    &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1                     &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1
-    &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1                     &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1
-                                    &kp N1  &kp N1  &kp N1     &kp N1  &kp N1  &kp N1
+    &bt BT_CLR  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1                      &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &bt BT_CLR
+    &bootloader  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1                     &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &bootloader
+    &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1                          &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1
+                                    &kp N1  &kp N1  &kp N1     &kp N1       &none  &kp N1
 
                             >;
             };
@@ -37,7 +37,7 @@
     &kp N2  &kp N2  &kp N2  &kp N2  &kp N2  &kp N2                     &kp N2  &kp N2  &kp N2  &kp N2  &kp N2  &kp N2
     &kp N2  &kp N2  &kp N2  &kp N2  &kp N2  &kp N2                     &kp N2  &kp N2  &kp N2  &kp N2  &kp N2  &kp N2
     &kp N2  &kp N2  &kp N2  &kp N2  &kp N2  &kp N2                     &kp N2  &kp N2  &kp N2  &kp N2  &kp N2  &kp N2
-                                    &kp N2  &kp N2  &kp N2     &kp N2  &kp N2  &kp N2
+                                    &kp N2  &kp N2  &kp N2     &kp N2  &kp N2  &none
 
                             >;
             };

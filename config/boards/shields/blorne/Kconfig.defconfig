@@ -4,13 +4,13 @@ config ZMK_KEYBOARD_NAME
     default "blorne"
 
 config ZMK_SPLIT_ROLE_CENTRAL
-    default Y
+    default y
 endif
 
 if SHIELD_BLORNE_LEFT || SHIELD_BLORNE_RIGHT
 
 config ZMK_SPLIT
-    default Y
+    default y
 
 config ZMK_BATTERY_REPORTING
     default n
