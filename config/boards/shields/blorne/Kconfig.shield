@@ -1,0 +1,4 @@
+config SHIELD_BLORNE_LEFT
+    def_bool $(shields_list_contains,blorne)
+config SHIELD_BLORNE_RIGHT
+    def_bool $(shields_list_contains,blorne)

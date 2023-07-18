@@ -1,13 +1,13 @@
-if SHIELD_CORNE_LEFT
+if SHIELD_BLORNE_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "corne"
+    default "blorne"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default Y
 endif
 
-if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT
+if SHIELD_BLORNE_LEFT || SHIELD_BLORNE_RIGHT
 
 config ZMK_SPLIT
     default Y

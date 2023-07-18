@@ -1,11 +1,11 @@
 file_format: "1"
-id: corne
-name: corne
+id: blorne
+name: blorne
 type: shield
 url: https://github.com/Leopere/zmk-corne/
 requires: [pro_micro]
 features:
   - keys
 siblings:
-  - corne-left
-  - corne-right
+  - blorne-left
+  - blorne-right
