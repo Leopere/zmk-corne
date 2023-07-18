@@ -23,7 +23,7 @@
             sym_layer {
                 bindings = <
 
-    &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1                     &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1
+    &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1                     &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &bt BT_CLR
     &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1                     &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1
     &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1                     &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1
                                     &kp N1  &kp N1  &kp N1     &kp N1  &kp N1  &kp N1
