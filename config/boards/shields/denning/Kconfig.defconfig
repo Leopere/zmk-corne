@@ -1,13 +1,13 @@
-if SHIELD_BLORNE_LEFT
+if SHIELD_DENNING_LEFT
 
 config ZMK_KEYBOARD_NAME
-    default "blorne"
+    default "denning"
 
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 endif
 
-if SHIELD_BLORNE_LEFT || SHIELD_BLORNE_RIGHT
+if SHIELD_DENNING_LEFT || SHIELD_DENNING_RIGHT
 
 config ZMK_SPLIT
     default y

@@ -1,4 +1,4 @@
-#include "blorne.dtsi"
+#include "denning.dtsi"
 
 / {
     chosen {

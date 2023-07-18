@@ -1,4 +1,4 @@
-#include "blorne.dtsi"
+#include "denning.dtsi"
 &default_transform {
     col-offset = <7>;
 };

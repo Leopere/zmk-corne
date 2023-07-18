@@ -1,0 +1,4 @@
+config SHIELD_DENNING_LEFT
+    def_bool $(shields_list_contains,denning_left)
+config SHIELD_DENNING_RIGHT
+    def_bool $(shields_list_contains,denning_right)
