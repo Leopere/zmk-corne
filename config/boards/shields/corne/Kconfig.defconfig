@@ -1,6 +1,17 @@
-if SHIELD_CORNE
+if SHIELD_CORNE_LEFT
 
 config ZMK_KEYBOARD_NAME
     default "corne"
 
+config ZMK_SPLIT_ROLE_CENTRAL
+    default Y
+endif
+
+if SHIELD_CORNE_LEFT || SHIELD_CORNE_RIGHT
+
+config ZMK_SPLIT
+    default Y
+
+config ZMK_BATTERY_REPORTING
+    default n
 endif
