@@ -68,13 +68,13 @@
             bindings = <
             //Row1
                 // &td0        &td1        &td2        &td3        &td4        &td5
-                &kp ESC     &kp Q       &kp W       &kp E       &kp R       &kp T
+                &kp ESC         &kp Q       &kp W       &kp E       &kp R       &kp T
             //Row2
-                &kp TAB     &kp A       &kp S       &kp D       &kp F       &kp G
+                &kp TAB         &kp A       &kp S       &kp D       &kp F       &kp G
             //Row3
-                &kp LSHIFT   &kp Z       &kp X       &kp C       &kp V       &kp B
+                &kp LSHIFT      &kp Z       &kp X       &kp C       &kp V       &kp B
             //Row4
-                                                                &kp LCMD       &kp SPACE   &kp RSHFT
+                                                                    &kp LCMD    &kp SPACE   &kp RSHFT
             >;
         };
         // Row1
