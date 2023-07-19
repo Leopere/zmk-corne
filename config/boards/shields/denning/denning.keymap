@@ -3,8 +3,8 @@
 #include <dt-bindings/zmk/bt.h>
 
 #define _BASE    0
-// #define _SYM     1
-// #define _NAV     2
+#define _SYM     1
+#define _NAV     2
 
 / {
     keymap {
