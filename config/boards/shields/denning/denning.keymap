@@ -23,7 +23,7 @@
                 bindings = <
 
     &kp LEFT_SHIFT   &kp N1  &kp N1  &kp N1  &kp N1  &kp N1                       &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &bt BT_CLR
-    &kp LS(LG(TAB))  &kp LS(LG(TAB))  &kp N1  &kp N1  &kp N1  &kp N1                       &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &bootloader
+    &kp N2  &kp N2  &kp N1  &kp N1  &kp N1  &kp N1                       &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &bootloader
     &kp N1       &kp N1  &kp N1  &kp N1  &kp N1  &kp N1                       &kp N1  &kp N1  &kp N1  &kp N1  &kp N1  &kp N1
                                     &kp N1  &kp N1  &kp LGUI          &none     &kp N1  &none
 
@@ -33,10 +33,10 @@
             nav_layer {
                 bindings = <
 
-    &kp N1  &kp N1  &kp N2  &kp N2  &kp N2  &kp N2                         &kp N2  &kp N2  &kp N2  &kp N2  &kp N2  &kp N2
-    &kp N2  &kp N2                    &kp N2  &kp N2  &kp N2  &kp N2                         &kp N2  &kp N2  &kp N2  &kp N2  &kp UP_ARROW  &kp N2
+    &kp N1  &kp N1                    &kp N2  &kp N2  &kp N2  &kp N2                         &kp N2  &kp N2  &kp N2  &kp N2  &kp N2  &kp N2
+    &kp LS(TAB)  &kp (TAB)  &kp N2  &kp N2  &kp N2  &kp N2                         &kp N2  &kp N2  &kp N2  &kp N2  &kp UP_ARROW  &kp N2
     &kp N2  &kp N2                    &kp N2  &kp N2  &kp N2  &kp N2                         &kp N2  &kp N2  &kp N2  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
-                                                      &kp N2  &kp N2  &kp N2          &none  &kp N2  &none
+                                                      &kp LGUI  &kp N2  &kp N2          &none  &kp N2  &none
 
                             >;
             };
