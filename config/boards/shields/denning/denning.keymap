@@ -33,7 +33,7 @@
             nav_layer {
                 bindings = <
 
-&kp LS(LEFT_GUI TAB)  &kp LS(LEFT_GUI TAB)  &kp N2  &kp N2  &kp N2  &kp N2                         &kp N2  &kp N2  &kp N2  &kp N2  &kp N2  &kp N2
+&kp LS(LG(TAB))  &kp LS(LG(TAB))  &kp N2  &kp N2  &kp N2  &kp N2                         &kp N2  &kp N2  &kp N2  &kp N2  &kp N2  &kp N2
     &kp N2  &kp N2  &kp N2  &kp N2  &kp N2  &kp N2                         &kp N2  &kp N2  &kp N2  &kp N2  &kp UP_ARROW  &kp N2
     &kp N2  &kp N2  &kp N2  &kp N2  &kp N2  &kp N2                         &kp N2  &kp N2  &kp N2  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW
                                     &kp N2  &kp N2  &kp N2          &none  &kp N2  &none
